@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "buy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isSold",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch22-Shop.sol": "Shop"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch22-Shop.sol": {
+			"keccak256": "0x7eb5d1f1fdb1951801341f9ac964d893ce031d5b72fbc9b619259d8943cb496b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1cc7806312a6bbcdc73047b5493deeeb95aaa39699eb71f87390f33ada5347f8",
+				"dweb:/ipfs/QmRaoMn3pG8bS69w9eCmwgzTEwLTJhncnUVagxVDBsXFWA"
+			]
+		}
+	},
+	"version": 1
+}

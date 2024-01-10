@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "player",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch16.1-Naughty-Interface.sol": "INaughtCoin"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch16.1-Naughty-Interface.sol": {
+			"keccak256": "0x15065842fde00e52ec007c89814066802b1bc6c2e3d49160377debf205e6211e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e85292e2f51ec4365b95e839468236269c124744cfd5d0eb1ee57cdd86c7aaa",
+				"dweb:/ipfs/QmW83mk8AiDsHg2Ld6yJ1ibQe3qvkP4gHUg5ByCDxqjFaJ"
+			]
+		}
+	},
+	"version": 1
+}

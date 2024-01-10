@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "initialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newImplementation",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "upgradeToAndCall",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch26.1-MotoBike.sol": "IEngine"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch26.1-MotoBike.sol": {
+			"keccak256": "0xf947f38098343552f6a088d66418c140281fffdd3ba50b413a8c6a99f642fd07",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f16e3ee477a8b15889cf572206ea9cea766056ea2393aedffa6f7c1bc3e3915",
+				"dweb:/ipfs/QmbMrq5zyCXrRnWqkzvDszzsX2QZc7dVzMadBvVsmigQ1C"
+			]
+		}
+	},
+	"version": 1
+}

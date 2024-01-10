@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "setSolver",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "solver",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch19-MagicNumber.sol": "IMagicNum"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch19-MagicNumber.sol": {
+			"keccak256": "0x70587d895b34b8fc2f049fd770ac8181873b4d8570379293f0b6344bac45f137",
+			"urls": [
+				"bzz-raw://87df1b93a092e247b8c5feefd83b6003763d3f077720b165f7cca37624b7aaa0",
+				"dweb:/ipfs/QmNRfywsU86sHTgvHTfWZU3iwyuf1NbbKS9jSD3bFDWnVQ"
+			]
+		}
+	},
+	"version": 1
+}

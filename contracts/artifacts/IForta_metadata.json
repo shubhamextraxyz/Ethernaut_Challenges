@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "raiseAlert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch27.1-DoubleEntry.sol": "IForta"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch27.1-DoubleEntry.sol": {
+			"keccak256": "0x4b8d63662e96eb88008b21ede480c863c408be4333d6d0ac508f084cd73d9050",
+			"urls": [
+				"bzz-raw://dd338e4e3e70a78d8496c1da3a8f1f28c1ae122059c9685279822820a27c372d",
+				"dweb:/ipfs/QmcMghxVExqQNvRPztwyHpXckUNPqZopEEJ8HTriv72C1t"
+			]
+		}
+	},
+	"version": 1
+}

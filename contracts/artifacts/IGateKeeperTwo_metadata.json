@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "",
+						"type": "bytes8"
+					}
+				],
+				"name": "enter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "entrant",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch15-Gatekeeper_Two.sol": "IGateKeeperTwo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch15-Gatekeeper_Two.sol": {
+			"keccak256": "0xb52ca18ae63bd880bac33960fe07b50c84cfcb055c1d937e1567decf7e360050",
+			"urls": [
+				"bzz-raw://a2dd1bface61351915039b0842da244749dc23600adaf53c9dd88740e0cb923a",
+				"dweb:/ipfs/QmdKuo9UV5AfhLXohgCRHuqqbpMLvbLTByX6iZroGeBrqx"
+			]
+		}
+	},
+	"version": 1
+}

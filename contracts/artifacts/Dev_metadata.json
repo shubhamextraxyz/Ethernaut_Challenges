@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "recover",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch18.1-Recovery_Dev.sol": "Dev"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch18.1-Recovery_Dev.sol": {
+			"keccak256": "0x3503db8dedc01d6ae337c2aa6eb44691f3a5387eebd8fb9af9f1c9ce4ea4ea78",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5bf4b291f325189a2d4b09b3557b1e832d68d27690797f4b4acbcfd2334e9c09",
+				"dweb:/ipfs/QmRtNfYZkyRn2vwRc6couRtGJtrxtWJnmYhGpHwVgqJKpe"
+			]
+		}
+	},
+	"version": 1
+}

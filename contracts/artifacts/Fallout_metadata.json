@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Fal1out",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch3.1-Fallout_Interface.sol": "Fallout"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch3.1-Fallout_Interface.sol": {
+			"keccak256": "0xc3697c40497e6d61fe6d0f73e280da446a290b0a6daa85c9c4be533c76fefe45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bef97e9d339840c93cb45abea358d4924f36e57d86aa3679c924545f7bf36c5e",
+				"dweb:/ipfs/QmanBmLPUEmKqJjdF2Kx6YMHQedNTTaGi2yBUSVLK51BMc"
+			]
+		}
+	},
+	"version": 1
+}

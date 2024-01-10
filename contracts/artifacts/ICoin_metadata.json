@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch28.1-Good_smartian_Interface.sol": "ICoin"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch28.1-Good_smartian_Interface.sol": {
+			"keccak256": "0x02a793646a58dc01c9b14d064422474589e8ddedb556c00aec3b09f415748398",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e65c811f5b83794dd92bb98db211f98cc4e084cb5764cd5ad10504a2a4d41f2",
+				"dweb:/ipfs/QmPLmCtmM5q6rM6M7WKJ7GodQhDagoCQfwWSzx6FVLeVbe"
+			]
+		}
+	},
+	"version": 1
+}

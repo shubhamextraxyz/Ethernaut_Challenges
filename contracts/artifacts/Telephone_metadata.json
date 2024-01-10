@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch5-Telephone.sol": "Telephone"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch5-Telephone.sol": {
+			"keccak256": "0x15172b0cc6c528a48dbcfd6f0cfab8b55d40565c784cf2c8b83b4ef582670a37",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://961bee4218a4fe7729a6710c19169fa7deee63504547161708e6e95906b3a570",
+				"dweb:/ipfs/QmULjUFj13eg9pxCBM3VA5mEo6PqxeHyBBEtoeXArbDnRF"
+			]
+		}
+	},
+	"version": 1
+}

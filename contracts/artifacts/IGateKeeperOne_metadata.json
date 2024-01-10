@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "",
+						"type": "bytes8"
+					}
+				],
+				"name": "enter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "entrant",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch14-Gatekeeper_One.sol": "IGateKeeperOne"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch14-Gatekeeper_One.sol": {
+			"keccak256": "0xce2fd9cc22430ad39e42453f2b142813a4e248855fd2b8dd2146817d6a5398cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ef798363dac4c364f5b1f7b650748709ca64f550f9cede76b256b62a1112d5b",
+				"dweb:/ipfs/QmTJatD5tpVxvjcFsv4xLrhsMUo5FHWyG6gHC5n93f1Mbx"
+			]
+		}
+	},
+	"version": 1
+}

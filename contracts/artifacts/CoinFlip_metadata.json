@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "consecutiveWins",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_guess",
+						"type": "bool"
+					}
+				],
+				"name": "flip",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ch4-CoinFlip.sol": "CoinFlip"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ch4-CoinFlip.sol": {
+			"keccak256": "0x53d065c22b8e439ecf54dbf01278ef948055c4084f4070e012988fc2371b9396",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://97102a06d2de3b41c8fe5f5f2a7aafe015215ea85fb9c874bcdd120991893d43",
+				"dweb:/ipfs/QmfJaNBpE7ovuaC2Z51jXAsPh34uLh9iuiiUEY58ybSgtj"
+			]
+		}
+	},
+	"version": 1
+}
